@@ -1,0 +1,8 @@
+use('spotify_clon')
+
+db.music.insertOne({
+    "name": "Hecha Pa' Mi",
+    "artist": "Boza",
+    "album": "Sencillo",
+    "Catefory": "Urba"
+})

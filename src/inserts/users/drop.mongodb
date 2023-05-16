@@ -1,0 +1,3 @@
+use('spotify_clon')
+
+db.users.drop()

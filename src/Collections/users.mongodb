@@ -1,0 +1,30 @@
+use('spotify_clon')
+
+db.createCollection("users", {
+    validator: {
+        $jsonSchema: {
+            bsonType: "object",
+            required: ['email','spotify_user','password'],
+            properties: {
+                _id: {
+                    bsonType: "objectId",
+                },
+                name: {
+                    bsonType: "string",
+                },
+                email: {
+                    bsonType: "string",
+                },
+                password: {
+                    bsonType: "string",
+                },
+                spotify_user: {
+                    bsonType: "string",
+                },
+                role: {
+                    enum: ['admin', 'user']
+                }
+            }
+        }
+    }
+})

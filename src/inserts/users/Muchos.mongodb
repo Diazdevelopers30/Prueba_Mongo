@@ -1,0 +1,27 @@
+use('spotify_clon')
+
+db.users.insertMany([
+    {
+        name: "Jose",
+        email: "jose@gmail.com",
+        password: "Music159",
+        spotify_user: "jose45",
+        role: "admin"
+    },
+    {
+        name: "Pedro",
+        last_name: "Camacho",
+        email: "pedro@gmail.com",
+        password: "Urban456",
+        spotify_user: "pedro45",
+        role: "user"
+    },
+    {
+        name: "Juan",
+        last_name: "Rodriguez",
+        email: "juan@gmail.com",
+        password: "EDM15958",
+        spotify_user: "juan14",
+        role: "user"
+    }
+])

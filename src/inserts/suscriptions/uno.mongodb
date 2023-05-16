@@ -1,0 +1,6 @@
+use('spotify_clon')
+
+db.suscription.insertOne({
+    "spotify_user": "pedro45",
+    "typo_suscriptions": "premium familiar"
+})

@@ -1,0 +1,16 @@
+use('spotify_clon')
+
+db.suscription.insertMany([
+    {
+        spotify_user: "juan45",
+        type_suscription: "individual"
+    },
+    {
+        spotify_user: "juan14",
+        type_suscription: "familiar"
+    },
+    {
+        spotify_user: "valentina12",
+        type_suscription: "familiar"
+    }
+])

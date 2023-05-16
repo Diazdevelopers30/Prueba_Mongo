@@ -1,0 +1,9 @@
+use('spotify_clon')
+
+db.users.insertOne({
+    "name": "Valentina",
+    "email": "valen12@gmail.com",
+    "password": "valent12",
+    "spotify_user": "valentina12",
+    "role": "admin"
+})

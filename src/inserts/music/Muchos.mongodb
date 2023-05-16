@@ -1,0 +1,28 @@
+use('spotify_clon')
+
+db.music.insertMany([
+    {
+        name: "Esta Vida",
+        artist: "Farruko & Marshmello",
+        album: "Sencillo",
+        Categoria: {
+            name: "Urbano",
+        }
+    },
+    {
+        name: "Bailar Contigo",
+        artist: "Daddy Yankee & Black eye Peas",
+        album: "Sencillo",
+        Categoria: {
+            name: "Urbano",
+        }
+    },
+    {
+        name: "Hasta Que Dios Diga",
+        artist: "Anuel & Bad Bonny",
+        album: "Sencillo",
+        Categoria: {
+            name: "Urbano",
+        }
+    }
+])

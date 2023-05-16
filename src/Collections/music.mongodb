@@ -1,0 +1,23 @@
+use('spotify_clon')
+
+db.createCollection("music", {
+    validator: {
+        $jsonSchema: {
+            bsonType: "object",
+            properties: {
+                title: {
+                    bsonType: "string"
+                },
+                artist: {
+                    bsonType: "string"
+                },
+                album: {
+                    bsonType: "string"
+                },
+                Category: {
+                    bsonType: "string"
+                }
+            }
+        }
+    }
+})

@@ -1,0 +1,18 @@
+use('spotify_clon')
+
+db.createCollection('suscription', {
+    validator: {
+        $jsonSchema: {
+            bsonType: 'object',
+            properties: {
+
+                spotify_user: {
+                    bsonType: 'string'
+                },
+                type_suscriptions: {
+                    bsonType: 'string'
+                }
+            }
+        }
+    }
+})
